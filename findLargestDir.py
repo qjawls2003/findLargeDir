@@ -18,11 +18,12 @@ def main(n,root):
         heapq.heappush(dirSize, (-1*sizes,dir))
     d = list(dirSize)
     l = len(d)
+    print("Results:")
     for i in range(int(n)):
         if i >= l:
             return
         p = heapq.heappop(dirSize)
-        print(size(p[0]*-1), ': ', p[1])
+        print("Size:", size(p[0]*-1), '|| Path:', p[1])
     return
 
 if __name__ == '__main__':
