@@ -1,7 +1,7 @@
 # findLargeDir
 Find largest n sub-directories in any root directory
 
-## Tired of trying to figure out which directories are hogging your staorage? 
+## Tired of trying to figure out which directories are hogging your storage? 
 ### Investigate any directories using this script to find the culprit that is blowing up your hard drive.
 
 ##
