@@ -28,7 +28,7 @@ def main(n,root):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        raise Execption("Input the nth number of largest directories and path of the root directory")
+        raise Exception("Input the nth number of largest directories and path of the root directory")
         #python findLargestDir.py 10 C:/"Program Files (x86)"
     n = sys.argv[1]
     root = sys.argv[2]
